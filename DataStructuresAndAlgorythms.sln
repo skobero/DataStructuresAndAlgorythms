@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinearSearch", "LinearSearch\LinearSearch.csproj", "{8E25FDE5-71B4-4871-94CA-1A6A86AA8454}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{B9472CFE-B71B-473B-AE56-ABD7EA7E4BAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E25FDE5-71B4-4871-94CA-1A6A86AA8454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E25FDE5-71B4-4871-94CA-1A6A86AA8454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E25FDE5-71B4-4871-94CA-1A6A86AA8454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E25FDE5-71B4-4871-94CA-1A6A86AA8454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9472CFE-B71B-473B-AE56-ABD7EA7E4BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9472CFE-B71B-473B-AE56-ABD7EA7E4BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9472CFE-B71B-473B-AE56-ABD7EA7E4BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9472CFE-B71B-473B-AE56-ABD7EA7E4BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E0CC928-54D1-4F7F-8D8E-95590729A756}
+	EndGlobalSection
+EndGlobal
