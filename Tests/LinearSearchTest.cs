@@ -1,4 +1,4 @@
-namespace Tests
+namespace AlgorithmsTests
 {
     public class LinearSearchTest
     {
@@ -10,7 +10,7 @@ namespace Tests
             int needle = 5;
 
             // Act
-            bool result = LinearSearch.Program.LinearSearch(array, needle);
+            bool result = Algorithms.LinearSearch_01.LinearSearch(array, needle);
 
             // Assert
             Assert.True(result);
@@ -24,7 +24,7 @@ namespace Tests
             int needle = 2;
 
             // Act
-            bool result = LinearSearch.Program.LinearSearch(array, needle);
+            bool result = Algorithms.LinearSearch_01.LinearSearch(array, needle);
 
             // Assert
             Assert.False(result);

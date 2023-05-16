@@ -4,16 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algorythms
+namespace Algorithms
 {
-    public class Program
+    public class LinearSearch_01
     {
-        public static void Main(string[] args)
-        {
-            
-        }
-
-        public static bool LinearSearch(int[] array,int needle)
+        public static bool LinearSearch(int[] array, int needle)
         {
             foreach (var item in array)
             {
