@@ -5,11 +5,16 @@ VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmsTests", "Tests\AlgorithmsTests.csproj", "{B9472CFE-B71B-473B-AE56-ABD7EA7E4BAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "BinarySearch\Algorithms.csproj", "{5191F297-7D8C-4630-86BC-25B3266219E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", "BinarySearch\Algorithms.csproj", "{5191F297-7D8C-4630-86BC-25B3266219E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{27BF8AA2-8892-494A-9772-63C0C94CFDAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures", "DataStructures\DataStructures.csproj", "{27BF8AA2-8892-494A-9772-63C0C94CFDAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructuresTest", "DataStructuresTest\DataStructuresTest.csproj", "{BE8A7868-17FE-4133-A9FF-358E52F149F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructuresTest", "DataStructuresTest\DataStructuresTest.csproj", "{BE8A7868-17FE-4133-A9FF-358E52F149F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F3EA2693-7A95-4974-90FA-7071D6422DD2}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
