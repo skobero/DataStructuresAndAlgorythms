@@ -1,4 +1,4 @@
 # Project with some basic algorithms and datastructures
 
-* [Algorithms](./Algorithms/readme.md)
-* [DataStructures](./DataStructures/readme.md)
+* [Algorithms](./Algorithms/Readme.md)
+* [DataStructures](./DataStructures/Readme.md)
