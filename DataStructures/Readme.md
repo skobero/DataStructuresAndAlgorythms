@@ -12,7 +12,7 @@
 	You always insert at the end and pop from the beginning.
 	Pushing and popping is constant O(1).
 
-* ** Stack**
+* **Stack**
 	Same as Queue only backwards. FILO
 
 * **ArrayBuffer (RingBuffer)**
