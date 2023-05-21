@@ -25,26 +25,26 @@
 	}while(low < high)
 
 * ## **Two Crystal Ball Problem**
-Given two crystal ball that will break if dropped from high enough distance, 
-determine the exact spot in which it will break in the most optimized way.
+	Given two crystal ball that will break if dropped from high enough distance, 
+	determine the exact spot in which it will break in the most optimized way.
 
 
-In general it is an array full of falses, that at some point it becomes true.
-We are trying to find where is this midpoint. 
-O(sqrt(N))
-We will jump inside the array by sqrt of N and the lineary walk back.
+	In general it is an array full of falses, that at some point it becomes true.
+	We are trying to find where is this midpoint. 
+	O(sqrt(N))
+	We will jump inside the array by sqrt of N and the lineary walk back.
 
 * ## **Bubble Sort**
-Start at the beginning.
-Checks if next position is larger. 
-If it is larger swap positions.
-After a first loop the last position has the largest value.
-Every next loop can be decreased by one.
+	Start at the beginning.
+	Checks if next position is larger. 
+	If it is larger swap positions.
+	After a first loop the last position has the largest value.
+	Every next loop can be decreased by one.
 
-O(n*n)
+	O(n*n)
 
 * ## **Recursion**
-A function that calls itself until some base case is complete.
+	A function that calls itself until some base case is complete.
 
 * ## **QuickSort**
 	1. Choose a pivot element from the array. This can be done randomly, by selecting the middle element, or by using a different strategy.
