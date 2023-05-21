@@ -1,24 +1,24 @@
 ﻿# DataStructures
 
-* **Linked List**
+* ## **Linked List**
 	Series of objects. Each object points to the next one.
 	In doubly linked list each object also point to the previous one.
 	When using LinkedList recommend not traversing.
 	Because O(n)
 	Every single LinkedList is a Graph, Tree.
 
-* **Queue**
+* ## **Queue**
 	Is a specific implementation of a LinkedList. FIFO
 	You always insert at the end and pop from the beginning.
 	Pushing and popping is constant O(1).
 
-* **Stack**
+* ## **Stack**
 	Same as Queue only backwards. FILO
 
-* **ArrayBuffer (RingBuffer)**
+* ## **ArrayBuffer (RingBuffer)**
 	Data structure if you want to remove from the head or tail and at the same time get a specific index
 
-* **Tree**
+* ## **Tree**
 	Root - the first node
 	Height - The longest path from the root to the most child node
 	Binary tree - a tree which has at most 2 children, at least 0 children
@@ -33,21 +33,21 @@
 	There is pre order, in order, post order.
 	![TreeTraversal](./Images/TreeTraversal.PNG)
 
-* **Breadth first search**
+* ## **Breadth first search**
 	Is a opposite of a depth first search.
 	It visits a tree level at a time.
 	![BFS](./Images/BFS.PNG)
 
-* **Comparing two binary trees**
+* ## **Comparing two binary trees**
 	Depth first search preserves shape. While Breath first search doesn't.
 	That is why we use depth first search.
 
-* **Binary Search Tree**
+* ## **Binary Search Tree**
 	There is one rule that has to be applied at every node.
 	The rule is that left has to be less or equal to the parent node and the right side has to be bigger then the parent node.
 	O(log(n))
 
-* **Heap (Priority Queue)**
+* ## **Heap (Priority Queue)**
 	It is a binary tree where every child and grand child is smaller (MaxHeap) or
 	Larger (MinHeap) then the current node.
 	Whenever a node is added we must adjust the tree.
@@ -57,7 +57,7 @@
 	Heap is always a complete tree. Every single node is filled from left to right. There is no empty space.
 	O(log(N))
 
-* **Tries**
+* ## **Tries**
 	The easiest way to visualize a trie is to think of auto-complete.
 	In a trie, each node in the tree represents a single character of a string. 
 	The root node represents an empty string, and the child nodes represent characters that can follow the characters represented by their parent node. 
@@ -65,7 +65,7 @@
 
 	O(L), where L is the length of the string being searched, inserted, or deleted.
 
-* **Graph**
+* ## **Graph**
 	Is a series of nodes with some amount of connections.
 	Graph Terminology:
 	Cycle - when you start at Node(x) and follow the links and end back at Node(x). At least 3 Nodes
@@ -89,7 +89,7 @@
 	Adjecency Matrix - but matrix takes large amount of memory and big O(V^2)
 	![GraphImplementation](./Images/GraphImplementation.PNG)
 
-* **LRU Cache**
+* ## **LRU Cache**
 	Stands for Least recently used.
 	It is a mechanism where we evict the least recently used from the cache.
 	The cache uses two data structures:
